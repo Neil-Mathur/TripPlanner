@@ -49,6 +49,13 @@
             <artifactId>jackson-databind</artifactId>
         </dependency>
 
+        <!-- dotenv-java: loads .env file into System properties at startup (mirrors Python python-dotenv) -->
+        <dependency>
+            <groupId>io.github.cdimascio</groupId>
+            <artifactId>dotenv-java</artifactId>
+            <version>3.0.0</version>
+        </dependency>
+
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
